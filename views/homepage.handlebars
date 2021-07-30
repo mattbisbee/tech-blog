@@ -1,3 +1,11 @@
+{{#if loggedIn}}
+{{else}}
+<div class="sign-up-banner">
+  <h2>Join us today and start contributing!</h2>
+  <a href="/login">SIGN UP!</a>
+</div>
+{{/if}}
+
 <ol class="post-list list-group list-group-numbered">
   {{#each posts as |post|}}
   <li class="list-group-item">
