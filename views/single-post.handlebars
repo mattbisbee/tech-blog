@@ -10,7 +10,7 @@
     </div>
 
     <div>
-      <button type="submit">add comment</button>
+      <button class="add-comment w-100 btn btn-lg btn-info mb-3" type="submit">add comment</button>
     </div>
     
   </form>
@@ -18,7 +18,9 @@
 </div>
 {{/if}}
 
-{{> comment post.comments}}
+<form class="card-body">
+{{> comments post.comments}}
+</form>
 
 {{#if loggedIn}}
 <script src="/javascript/comment.js"></script>

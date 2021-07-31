@@ -1,0 +1,84 @@
+* {
+  font-family: "Century Gothic", Helvetica, sans-serif;
+  text-align: center;
+}
+
+.anchor-link {
+  text-decoration: none; 
+  display: inline-block; 
+  padding: 2px 8px;
+  background: ButtonFace; 
+  color: ButtonText;
+  border-style: solid; 
+  border-width: 2px;
+  border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+  border-radius: 10px;
+}
+
+.anchor-link:hover{
+  border-color: orange;
+}
+
+
+.form-control {
+  text-align: left;
+}
+
+footer {
+  padding: 20px;
+}
+
+.create-btn,
+.add-comment {
+  border-color: black;
+}
+
+.create-btn:hover,
+.add-comment:hover {
+  border-color: gray;
+}
+
+#content {
+  height: 215px;
+  width: 370px;
+}
+
+#post-title {
+  width: 370px;
+}
+
+.meta {
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+textarea{
+  height: 215px;
+  width: 370px;
+}
+
+.list-group-item{
+  border-color: grey;
+}
+
+.welcome-banner,
+.sign-up-banner {
+  padding-top: 15px;
+
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 25px;
+  padding: 5px;
+  vertical-align: center;
+  color: grey;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.comment {
+  text-align: center;
+}
