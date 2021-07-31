@@ -13,7 +13,7 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 //secret variable is stored in the .env file which has been required above
 const sess = {
-  secret: process.env.secret,
+  secret: 'super secret secret',
   cookie: {},
   resave: false,
   saveUninitialized: true,
