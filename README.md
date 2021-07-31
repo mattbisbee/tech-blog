@@ -20,7 +20,21 @@
   * [Contribute](#contribute)
   
   ## **Installation**
-   npm install express-handlebars, npm install --save mysql2, npm i sequelize, npm install dotenv, npm install bcrypt, npm install express-session, and npm install connect-session-sequelize
+  In the terminal, enter the following dependencies:
+  
+  npm install express-handlebars
+
+  npm install --save mysql2
+
+  npm i sequelize
+
+  npm install dotenv
+
+  npm install bcrypt
+
+  npm install express-session
+
+  npm install connect-session-sequelize
 
   ## **Usage**
   Once all the dependencies are installed, open the termial and type 'npm start'. Then load your local host to view the program.
@@ -41,7 +55,19 @@
    CSS, HTML, JavaScript, Handlebars
 
   ## **Technology**
-  https://www.npmjs.com/package/express-handlebars, https://www.npmjs.com/package/mysql2, https://www.npmjs.com/package/sequelize, https://www.npmjs.com/package/dotenv, https://www.npmjs.com/package/bcrypt, https://www.npmjs.com/package/express-session, https://www.npmjs.com/package/connect-session-sequelize
+  https://www.npmjs.com/package/express-handlebars
+
+  https://www.npmjs.com/package/mysql2
+
+  https://www.npmjs.com/package/sequelize
+
+  https://www.npmjs.com/package/dotenv
+
+  https://www.npmjs.com/package/bcrypt
+
+  https://www.npmjs.com/package/express-session
+
+  https://www.npmjs.com/package/connect-session-sequelize
 
   ## **Tests**
   No test have been created for this project
