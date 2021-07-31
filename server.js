@@ -3,7 +3,7 @@ const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
 const helpers = require('./utils/helpers');
-require('dotenv').config();
+if (process.env.NODE_ENV !== 'production') { require('dotenv').config() }
 
 const app = express();
 const PORT = process.env.PORT || 5000;
